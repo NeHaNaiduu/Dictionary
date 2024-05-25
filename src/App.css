@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+}
+#wrapper{
+  background-color: rgb(250, 231, 234);
+  height: 50vmin;
+  margin: 30px;
+  padding: 50px;
+}
+#wrapper .inputWord{
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  margin-right: 20px;
+  border-radius: 0.2rem;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+#wrapper .searchBtn{
+  padding: 10px;
+  cursor: pointer;
+  background-color: darkcyan;
+  border: none;
+}
+#wrapper .searchBtn:hover{
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+}
+.definition{
+  color: rgb(71, 70, 70);
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: 700;
+}
+.spinner{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 10px solid white;
+  border-top-color: rgb(0, 123, 255);
+  animation: rotate 0.7s linear infinite;
+}
+@keyframes rotate {
+  from{
+    transform: rotate(360deg);
+  }
+}
